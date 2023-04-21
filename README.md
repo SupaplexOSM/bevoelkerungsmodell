@@ -28,4 +28,4 @@ Dieses Python-Script für QGIS erzeugt einen Bevölkerungsdatensatz in Form eine
 - Am Speicherort des Scripts einen Unterordner "data" anlegen und dort die Input-Datensätze bereithalten.
 - Script ausführen (z.B. über den Konsolen-Button mit dem grünen Pfeil). Je nach Größe des Gebiets und Rechenleistung dauert es ein paar Sekunden (für einen Stadtteil) oder ein paar Stunden (z.B. für ganz Berlin mit mehreren Millionen Punkten und Gebäuden).
 
-***Hinweis:*** Das Script ist bisher nicht sehr effizient geschreiben, sodass es bei großen Datensätzen/Städten länger dauern kann... Wer Lust/Wissen hat, kann es gern effektiver schreiben :)
+***Hinweis:*** Das Script ist bisher nicht sehr effizient geschreiben, sodass es bei großen Datensätzen/Städten länger dauern kann... Wer Lust/Wissen hat, kann es gern effektiver schreiben :) Eine bekannte Ungenauigkeit ist außerdem, dass ein kleiner Teil (<1%) der Bevölkerung "verschwinden" kann, also die Anzahl der Punkte am Ende nicht ganz der Gesamtbevölkerung aus dem Bevölkerungsdichtedatensatz entspricht. Könnte ein Rundungsproblem sein, habe ich mir noch nicht genauer angesehen, da es relativ vernachlässigbar ist.
