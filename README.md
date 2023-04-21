@@ -5,6 +5,8 @@ Dieses Python-Script für QGIS erzeugt einen Bevölkerungsdatensatz in Form eine
 
 ***Entstehungshintergrund:*** Wir haben das Modell in der Berliner OpenStreetMap-Community für die Generierung einer Parkraumdichteverteilung (in Verbindung mit Kfz-Meldedaten) entwickelt. Hintergründe zur Verwendung im OSM-Parkraumprojekt finden sich [in diesem Blogpost](https://parkraum.osm-verkehrswende.org/posts/2021-03-13-opendata/). Das Script kann bei Bedarf auch mit OSM-Gebäudedaten gefüttert werden, in Berlin haben wir aber vollständigere ALKIS-Daten genutzt.
 
+![Punktwolke für statistische Bewohner:innen pro Gebäude (Beispielausschnitt aus Berlin-Neukölln)](https://wiki.openstreetmap.org/w/images/d/d4/Bev%C3%B6lkerungsdichte_Neuk%C3%B6lln_dot_sample.jpg)
+
 ## Welche Daten werden als Input benötigt?
 - Datensatz aller Gebäude (Polygone) mit Anzahl der Gebäudestockwerke und Gebäudefunktion (zur Unterscheidung von Wohngebäuden von Gebäuden, die nicht zum Wohnen genutzt werden)
 
